@@ -10,7 +10,7 @@ title:            Bill DeRusha
 tagline:          'dev et al'
 description:      'Ideas & Projects'
 url:              http://billderusha.com
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Bill DeRusha'
