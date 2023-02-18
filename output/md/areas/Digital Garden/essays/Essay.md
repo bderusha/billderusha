@@ -4,7 +4,7 @@ tags:
 - '1'
 ---
    
-# Essay `{_obsidian_pattern_tag_1}`   
+# Essay **1**   
 This is my essay   
 # Heading 1   
 ## Heading 2   

@@ -107,7 +107,7 @@ html_template_path_str: ''
 # Provide an array of custom inclusions (css, javascript, etc) that you would like to be included in the resultant html
 html_custom_inclusions:
   - '<link rel="stylesheet" href="/splendor.min.css" />'
-  
+
 html_custom_footer_inclusions: []
 
 navbar_links: []
@@ -174,17 +174,12 @@ toggles:
   external_blank: False  
 
   # Will preserve inline tags. This will give polluted markdown output
-  preserve_inline_tags: True
+  preserve_inline_tags: False
+
+  # v3.5 feature not yet released
+  # slugify_html_links: True
   
   features:
-    styling: 
-      layout: minimal               # documentation, tabs, minimal
-      header_template: full               # <full, minimal> currently only supported for documentation layout
-      max_note_width: 120rem              # not supported for layout: tabs
-      add_dir_list: True                  # show directory contents in one of the panes (only documentation layout)
-      accent_color: '65, 76, 253'
-      loading_bg_color: '255, 255, 255'
-
     theme_picker:
       enabled: True
       styling:
@@ -210,13 +205,13 @@ toggles:
         show_icon: True
 
     embedded_search:
-      enabled: False
+      enabled: True
 
     tags_page:
-      enabled: false
+      enabled: False
       styling:
-        show_icon: True
-        show_in_note_footer: True
+        show_icon: False
+        show_in_note_footer: False
 
     dataview:
       enabled: False
@@ -285,7 +280,7 @@ toggles:
           format_string: '' #'%Y-%m-%d'
 
     create_index_from_dir_structure:
-      enabled: True
+      enabled: False
       verbose: False
       rel_output_path: 'obs.html/dir_index.html'
       styling: 
