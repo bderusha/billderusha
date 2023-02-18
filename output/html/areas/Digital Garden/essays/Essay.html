@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Page information -->
+        <meta charset="UTF-8" />
+        <meta name="node_id" content="About ObsidianHtml">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <!-- Set title -->
+        <title>Bill DeRusha</title>
+
+        <script>
+            var DO_NOT_OVERWRITE_LINK_BEHAVIOR = true;
+            const PAGE_DEPTH = 3;
+        </script>
+
+        <!-- Includes -->
+        <link rel="stylesheet" href="/splendor.min.css" />
+<script src="/obs.html/static/obsidian_core.js"></script>
+<script src="/obs.html/static/encoding.js"></script>
+<link rel="stylesheet" href="/obs.html/static/master.css" />
+<script src="/obs.html/static/mermaid.9.0.1.min.js"></script>
+<script>
+  MathJax = {
+    loader: {
+      load: [
+        '[tex]/action',
+        'output/chtml',
+        '[tex]/centernot'
+      ]
+    },
+    tex: {
+      inlineMath: [ ["\\(","\\)"] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true,
+      processEnvironments: true,
+      packages: {'[+]': ['centernot']}
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script src="/obs.html/static/flexsearch.bundle.js"></script>
+<script src="/obs.html/static/pako.js"></script>
+<script src="/obs.html/static/search.js"></script>
+<script src="/obs.html/static/dirtree.js"></script>
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="content"><h1 id="essay-_obsidian_pattern_tag_1">Essay <a class="inline-tag" href="/obs.html/tags/1/index.html">1</a></h1>
+<p>This is my essay   </p>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<blockquote>
+<p>What do you call a goliath psychic who wears halfling pants?   </p>
+<p>A tall medium in shorts.   </p>
+<p>You may think that a rogue's favorite armor material is Hide, but you'd be wrong. It's steel.   </p>
+<p>Did you hear about the chef that died? <br />
+He may have pasta way but he spent his Thyme well. <br />
+I hope his legacy will become a pizza history but we cannoli do so much <br />
+</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula pharetra ultricies. Cras magna turpis, <br />
+vestibulum ut arcu et, rutrum porta velit. Curabitur luctus erat a velit tincidunt, vel malesuada nibh tempor. <br />
+Mauris condimentum quam lorem, in finibus eros faucibus id. Nunc erat metus, fringilla dignissim faucibus id, <br />
+malesuada quis justo.   </p>
+<blockquote>
+<p>Vestibulum erat augue, feugiat vitae porttitor vel, condimentum quis ipsum. Etiam sagittis eros et dolor <br />
+  semper congue.   </p>
+</blockquote>
+<p>Curabitur ac euismod turpis. Maecenas gravida viverra augue quis scelerisque. Vivamus quis massa elementum odio <br />
+pharetra efficitur at eget nibh. Donec varius purus quis nisi gravida tristique. Quisque dictum justo nec nulla <br />
+hendrerit aliquet.   </p>
+<p><img alt="" src="https://cloud.githubusercontent.com/assets/1424573/4785631/dc5ddcd2-5d82-11e4-88a2-06fdabbe4fb8.png" />   </p>
+<p>Duis ac ultrices nunc. Proin elit augue, fringilla at varius at, interdum ut justo. Sed sed eros a leo molestie <br />
+bibendum. Nullam ac justo malesuada, euismod dui at, finibus purus. Sed mi risus, porta ac sem ac, commodo <br />
+semper risus.   </p>
+<h4 id="some-example-code">Some example code:</h4>
+<div class="lang-js">
+
+<div class="codehilite"><pre><span></span><code><span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="s1">&#39;watch&#39;</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">gulp</span><span class="p">.</span><span class="nx">watch</span><span class="p">(</span><span class="s1">&#39;*.md&#39;</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">gulp</span><span class="p">.</span><span class="nx">start</span><span class="p">(</span><span class="s1">&#39;md&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;html&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="p">});</span>
+
+<span class="w">  </span><span class="nx">gulp</span><span class="p">.</span><span class="nx">watch</span><span class="p">(</span><span class="s1">&#39;*.css&#39;</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">gulp</span><span class="p">.</span><span class="nx">start</span><span class="p">(</span><span class="s1">&#39;css&#39;</span><span class="p">);</span>
+<span class="w">  </span><span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div>
+
+
+</div>
+
+<h4 id="lists">Lists</h4>
+<ul>
+<li>Apples   </li>
+<li>Citrus   <ul>
+<li>Oranges   </li>
+<li>Grapefruit   </li>
+</ul>
+</li>
+<li>Potatoes   </li>
+<li>
+<p>Milk   </p>
+</li>
+<li>
+<p>Mow the lawn   </p>
+</li>
+<li>Feed the dog   </li>
+<li>Dance   </li>
+</ul>
+<h4 id="links">Links</h4>
+<p><a href="http://duckduckgo.com" class="external-link">external</a> <br />
+<a href="/areas/Digital%20Garden/essays/Linked%20Essay.html">internal essay link</a> <br />
+<a href="/areas/Digital%20Garden/essays/Linked%20Essay.html">Linked Essay</a>   </p>
+<h4 id="emphasis">Emphasis</h4>
+<p>this is <strong>BOLD</strong> <br />
+Italicized text is the <em>cat's meow</em>. <br />
+This text is <strong><em>really important</em></strong>.</p></div>
+<div class="note-footer">
+<div class="tags">
+<h2>Tags</h2>
+<ul>
+	<li><a class="backlink" href="/obs.html/tags/1/index.html">1</a></li>
+</ul>
+</div>
+
+</div>
+
+        </div>
+        
+             
+        
+   
+    </body>
+</html>
